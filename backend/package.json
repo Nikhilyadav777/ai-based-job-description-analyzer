@@ -1,0 +1,21 @@
+{
+  "name": "jd-analyzer-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "pdf-parse": "^2.4.5",
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.14",
+    "pdf-parse": "^2.4.5",
+    "uuid": "^10.0.0"
+  }
+}
